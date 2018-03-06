@@ -15,4 +15,10 @@ function to_dir {
     fi
 }
 
+function run_server {
+    cd $TOP_ROOT
+    mkdocs serve -a 0.0.0.0:8000
+}
+
 alias to='to_dir '
+alias run='run_server'

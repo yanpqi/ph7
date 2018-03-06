@@ -1,4 +1,4 @@
-site_name: My Docs
+site_name: PH7测试用例库
 pages:
   -  Home: index.md
   -  Android用例: android_test/main.md
