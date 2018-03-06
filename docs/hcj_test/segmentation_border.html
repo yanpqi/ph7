@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">                                                                                        
+<title>PH7: Test CJK segmentation with DOM boarder</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<style>
+* {
+    font-size:24px;
+}
+.red {
+    color: red;
+}
+.blue {
+    color: blue;
+}
+.green {
+    color: green;
+    display:inline-block;
+}
+</style>
+</head>
+<body>
+<div>本用例用于测试中文词组在长按选中时的高亮情况,注意"宏观调控制约"这几个关键字</di>
+<div>完全自由的一句话。</div>
+<div>宏观调控制约了市场经济自由发挥作用。</div>
+<div>观调入在span中，以红色显示</div>
+<div>宏<span class="red">观调</span>控制约了市场经济自由发挥作用。</div>
+<div>观调入在div中，div具有inline-block属性，以绿色显示</div>
+<div>宏<div class="green">观调</div>控制约了市场经济自由发挥作用。</div>
+<div>观调入在div中，以蓝色显示</div>
+<div>了了了宏<div class="blue">观调</div>控制约了市场经济自由发挥作用。</div>
+<div>宏观被行框分隔，以绿色显示</div>
+<div>了了了了了了了了了了了了宏<div class="green">观调</div>控制约了市场经济自由发挥作用。</div>
+</body>
+</html>
