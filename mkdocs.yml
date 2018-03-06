@@ -1,0 +1,9 @@
+site_name: My Docs
+pages:
+  -  Home: index.md
+  -  Android用例: android_test/main.md
+  -  Java用例: java_test/main.md
+  -  C/C++用例: cpp_test/main.md
+  -  前端用例: hcj_test/main.md
+  -  Python用例: py_test/main.md
+
