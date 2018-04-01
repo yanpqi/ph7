@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+#key_board {
+	padding: 10px;
+	background-color:rgb(249,247,236);
+	color: #000;
+	float: left;
+}
+#key_board > * {
+	vertical-align: middle;
+}
+#kb_area_left {
+    width: 60%;
+    display: inline-block;
+
+}
+#kb_area_center {
+	padding: 0 10px;
+	width: 12%;
+	display: inline-block;
+}
+#kb_area_right {
+	width: 17%;
+	display: inline-block;
+}
+.function_line {
+	margin-bottom:10px;
+}
+.key_normal {
+    box-sizing: border-box;
+    padding: 4px 8px;
+    width: 44px;
+    height: 44px;
+	border: 1px solid #ccc;
+	display: inline-block;
+	font-size: 12px;
+	border-radius: 4px;
+}
+.key_normal p {
+	margin: 0px;
+}
+.key_normal p:first-child {
+	margin-bottom: 8px;
+}
+.function_line, .line {
+	float: left;
+}
+.clear{
+    clear:both;
+    height: 0;
+    line-height: 0;
+    font-size: 0
+}
+.line > * {
+	vertical-align:middle; 
+}
+.line {
+	margin-top: 4px;
+}
+.small_board {
+	float: left;
+}
+.small_board > * {
+	vertical-align: middle;
+}
+.small_board .left {
+	width: 70%;
+	display: inline-block;
+}
+.small_board .right {
+	width:25%;
+	display: inline-block;
+}
+.key_style_vertical_longer {
+	height: 92px;
+}
+.key_style_horizal_longer_2 {
+	width: 116px;
+}
+.key_style_horizal_longer_1_3 {
+	width: 92px;
+}
+.key_style_horizal_longer_1_6 {
+	width: 92px;
+}
+.key_style_horizal_longer_5 {
+	width: 242px;
+}
+.key_style_horizal_longer_1_1 {
+	width: 64px;
+}
+</style>
+</head>
+<body id="key_board">
+	<div id="kb_area_left">
+		<div class="function_line">
+			<div class="key_normal" id="key_esc">Esc</div>
+			<div class="key_normal" id="key_esc">F1</div>
+			<div class="key_normal" id="key_esc">F2</div>
+			<div class="key_normal" id="key_esc">F3</div>
+			<div class="key_normal" id="key_esc">F4</div>
+			<div class="key_normal" id="key_esc">F5</div>
+			<div class="key_normal" id="key_esc">F6</div>
+			<div class="key_normal" id="key_esc">F7</div>
+			<div class="key_normal" id="key_esc">F8</div>
+			<div class="key_normal" id="key_esc">F9</div>
+			<div class="key_normal" id="key_esc">F10</div>
+			<div class="key_normal" id="key_esc">F11</div>
+			<div class="key_normal" id="key_esc">F1</div>
+			<div class="key_normal" id="key_esc">F12</div>
+			<div class="key_normal" id="key_network">Esc</div>
+			<div class="clear"></div>
+		</div>
+		<div id="main_area">
+			<div class="line">
+				<div class="key_normal" id="key_esc"><p>~</p><p>`</p></div>
+				<div class="key_normal" id="key_esc"><p>!</p><p>1</p></div>
+				<div class="key_normal" id="key_esc"><p>@</p><p>2</p></div>
+				<div class="key_normal" id="key_esc"><p>#</p><p>3</p></div>
+				<div class="key_normal" id="key_esc"><p>$</p><p>4</p></div>
+				<div class="key_normal" id="key_esc"><p>%</p><p>5</p></div>
+				<div class="key_normal" id="key_esc"><p>^</p><p>6</p></div>
+				<div class="key_normal" id="key_esc"><p>&</p><p>7</p></div>
+				<div class="key_normal" id="key_esc"><p>*</p><p>8</p></div>
+				<div class="key_normal" id="key_esc"><p>(</p><p>9</p></div>
+				<div class="key_normal" id="key_esc"><p>)</p><p>0</p></div>
+				<div class="key_normal" id="key_esc"><p>_</p><p>-</p></div>
+				<div class="key_normal" id="key_esc"><p>+</p><p>=</p></div>
+				<div class="key_normal key_style_horizal_longer_1_3" id="key_esc">Back</div>
+				<div class="clear"></div>
+			</div>
+			<div class="line">
+				<div class="key_normal key_style_horizal_longer_1_3" id="key_esc">Tab</div>
+				<div class="key_normal" id="key_esc">Q</div>
+				<div class="key_normal" id="key_esc">W</div>
+				<div class="key_normal" id="key_esc">E</div>
+				<div class="key_normal" id="key_esc">R</div>
+				<div class="key_normal" id="key_esc">T</div>
+				<div class="key_normal" id="key_esc">Y</div>
+				<div class="key_normal" id="key_esc">U</div>
+				<div class="key_normal" id="key_esc">I</div>
+				<div class="key_normal" id="key_esc">O</div>
+				<div class="key_normal" id="key_esc">P</div>
+				<div class="key_normal" id="key_esc"><p>{</p><p>[</p></div>
+				<div class="key_normal" id="key_esc"><p>}</p><p>]</p></div>
+				<div class="key_normal" id="key_esc"><p>|</p><p>\</p></div>
+				<div class="clear"></div>
+			</div>
+			<div class="line">
+				<div class="key_normal key_style_horizal_longer_1_6" id="key_esc">Caps Lock</div>
+				<div class="key_normal" id="key_esc">A</div>
+				<div class="key_normal" id="key_esc">S</div>
+				<div class="key_normal" id="key_esc">D</div>
+				<div class="key_normal" id="key_esc">F</div>
+				<div class="key_normal" id="key_esc">G</div>
+				<div class="key_normal" id="key_esc">H</div>
+				<div class="key_normal" id="key_esc">J</div>
+				<div class="key_normal" id="key_esc">K</div>
+				<div class="key_normal" id="key_esc">L</div>
+				<div class="key_normal" id="key_esc"><p>:</p><p>;</p></div>
+				<div class="key_normal" id="key_esc"><p>?</p><p>?</p></div>
+				<div class="key_normal key_style_horizal_longer_1_6" id="key_esc">Enter</div>
+				<div class="clear"></div>
+			</div>
+			<div class="line">
+				<div class="key_normal key_style_horizal_longer_2" id="key_esc">Shift</div>
+				<div class="key_normal" id="key_esc">Z</div>
+				<div class="key_normal" id="key_esc">X</div>
+				<div class="key_normal" id="key_esc">C</div>
+				<div class="key_normal" id="key_esc">V</div>
+				<div class="key_normal" id="key_esc">B</div>
+				<div class="key_normal" id="key_esc">N</div>
+				<div class="key_normal" id="key_esc">M</div>
+				<div class="key_normal" id="key_esc"><p><</p><p>,</p></div>
+				<div class="key_normal" id="key_esc"><p>></p><p>.</p></div>
+				<div class="key_normal" id="key_esc"><p>?</p><p>/</p></div>
+				<div class="key_normal key_style_horizal_longer_2" id="key_esc">Shift</div>
+				<div class="clear"></div>
+			</div>
+			<div class="line" style="text-align:center; line-height:36px;">
+				<div class="key_normal key_style_horizal_longer_1_1" id="key_esc">Ctrl</div>
+				<div class="key_normal key_style_horizal_longer_1_1" id="key_esc">F1</div>
+				<div class="key_normal key_style_horizal_longer_1_1" id="key_esc">Alt</div>
+				<div class="key_normal key_style_horizal_longer_5" id="key_esc">Space</div>
+				<div class="key_normal key_style_horizal_longer_1_1" id="key_esc">Alt</div>
+				<div class="key_normal key_style_horizal_longer_1_1" id="key_esc">F5</div>
+				<div class="key_normal key_style_horizal_longer_1_1" id="key_esc">F6</div>
+				<div class="key_normal key_style_horizal_longer_1_1" id="key_esc">Ctrl</div>
+				<div class="clear"></div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div id="kb_area_center">
+		<div class="function_line">
+			<div class="key_normal" id="key_esc">B</div>
+			<div class="key_normal" id="key_esc">N</div>
+			<div class="key_normal" id="key_esc">M</div>
+			<div class="clear"></div>
+		</div>
+		<div class="line">
+			<div class="key_normal" id="key_esc">Print Screen</div>
+			<div class="key_normal" id="key_esc">Scroll Lock</div>
+			<div class="key_normal" id="key_esc">Pause Break</div>
+			<div class="clear"></div>
+		</div>
+		<div class="line">
+			<div class="key_normal" id="key_esc">Insert</div>
+			<div class="key_normal" id="key_esc">Home</div>
+			<div class="key_normal" id="key_esc">Page Up</div>
+			<div class="clear"></div>
+		</div>
+		<div class="line">
+			<div class="key_normal" id="key_esc">Delete</div>
+			<div class="key_normal" id="key_esc">End</div>
+			<div class="key_normal" id="key_esc">Page Down</div>
+			<div class="clear"></div>
+		</div>
+		<div class="line">
+			<div class="key_normal" id="key_esc">N</div>
+			<div class="key_normal" id="key_esc">N</div>
+			<div class="key_normal" id="key_esc">N</div>
+			<div class="clear"></div>
+		</div>
+		<div class="line">
+			<div class="key_normal" id="key_esc">B</div>
+			<div class="key_normal" id="key_esc">N</div>
+			<div class="key_normal" id="key_esc">M</div>
+			<div class="clear"></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div id="kb_area_right">
+		<div class="function_line">
+			<div class="key_normal" id="key_esc">B</div>
+			<div class="key_normal" id="key_esc">N</div>
+			<div class="key_normal" id="key_esc">M</div>
+			<div class="key_normal" id="key_esc">M</div>
+			<div class="clear"></div>
+		</div>
+		<div class="small_board">
+			<div class="left">
+				<div class="line">
+					<div class="key_normal" id="key_esc">Num Lock</div>
+					<div class="key_normal" id="key_esc">/</div>
+					<div class="key_normal" id="key_esc">*</div>
+					<div class="clear"></div>
+				</div>
+				<div class="line">
+					<div class="key_normal" id="key_esc"><p>7</p><p>Home</p></div>
+					<div class="key_normal" id="key_esc"><p>8</p><p></p></div>
+					<div class="key_normal" id="key_esc"><p>9</p><p>PgUp</p></div>
+					<div class="clear"></div>
+				</div>
+				<div class="line">
+					<div class="key_normal" id="key_esc"><p>4</p><p></p></div>
+					<div class="key_normal" id="key_esc"><p>5</p><p></p></div>
+					<div class="key_normal" id="key_esc"><p>6</p><p></p></div>
+					<div class="clear"></div>
+				</div>
+				<div class="line">
+					<div class="key_normal" id="key_esc"><p>1</p><p>End</p></div>
+					<div class="key_normal" id="key_esc"><p>2</p><p></p></div>
+					<div class="key_normal" id="key_esc"><p>3</p><p>PgDn</p></div>
+					<div class="clear"></div>
+				</div>
+				<div class="line">
+					<div class="key_normal" id="key_esc"><p>.</p><p>Del</p></div>
+					<div class="key_normal key_style_horizal_longer_1_3" id="key_esc"><p>0</p><p>Ins</p></div>
+					<div class="clear"></div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="right">
+				<div class="line">
+					<div class="key_normal" id="key_esc">-</div>
+					<div class="clear"></div>
+				</div>
+				<div class="line">
+					<div class="key_normal key_style_vertical_longer" id="key_esc">+</div>
+					<div class="clear"></div>
+				</div>
+				<div class="line">
+					<div class="key_normal key_style_vertical_longer" id="key_esc">Enter</div>
+					<div class="clear"></div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<div class="clear"></div>
+</body>
+</html>
