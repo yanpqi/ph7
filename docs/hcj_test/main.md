@@ -5,6 +5,8 @@
 2. 测试不同形式的DOM分隔词组时如何影响词组高亮。 [测试DOM元素对文本词组分解的影响](segmentation_border.html)
 
 3. 测试文本显示行数[文本行数控制](line_clamp.html)
+
+4. 文本下划线测试[文本下划线控制](text_underline.html)
 ## 表单测试
 ## 媒体测试
 ## 跳转测试

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>PH7: {{ titile }} </title>
+    <style>
+      a {
+        text-decoration: none;
+        color: #000;
+      }
+      .underline0 {
+        padding-bottom: 8px;
+        border-bottom: 1px solid gray;
+      }
+      .underline1 {
+        border-bottom: 1px solid gray;
+      }
+      .underline2 {
+        display: inline-block;
+        border-bottom: 1px solid gray;
+        line-height: .9;
+      }
+      .underline3 {
+        box-shadow: 0 -1px gray inset;
+      }
+      .error {
+        position: relative;
+      }
+      .error::before {
+        content: '';
+        position: absolute;
+        bottom: -0.125em;
+        width: 100%;
+        height: 0.25em;
+        background: -webkit-linear-gradient(315deg, transparent, transparent 45%, #dc3912, transparent 55%, transparent 100%), -webkit-linear-gradient(45deg, transparent, transparent 45%, #dc3912, transparent 55%, transparent 100%);
+        background: linear-gradient(135deg, transparent, transparent 45%, #dc3912, transparent 55%, transparent 100%), linear-gradient(45deg, transparent, transparent 45%, #dc3912, transparent 55%, transparent 100%);
+        background-size: 0.5em 0.5em;
+        background-repeat: repeat-x, repeat-x;
+      }
+      .warning {
+        position: relative;
+      }
+      .warning::before {
+        content: '';
+        position: absolute;
+        bottom: -0.125em;
+        width: 100%;
+        height: 0.25em;
+        background: -webkit-linear-gradient(315deg, transparent, transparent 45%, #f90, transparent 55%, transparent 100%), -webkit-linear-gradient(45deg, transparent, transparent 45%, #f90, transparent 55%, transparent 100%);
+        background: linear-gradient(135deg, transparent, transparent 45%, #f90, transparent 55%, transparent 100%), linear-gradient(45deg, transparent, transparent 45%, #f90, transparent 55%, transparent 100%);
+        background-size: 0.5em 0.5em;
+        background-repeat: repeat-x, repeat-x;
+      }
+      .info {
+        position: relative;
+      }
+      .info::before {
+        content: '';
+        position: absolute;
+        bottom: -0.125em;
+        width: 100%;
+        height: 0.25em;
+        background: -webkit-linear-gradient(315deg, transparent, transparent 45%, #008000, transparent 55%, transparent 100%), -webkit-linear-gradient(45deg, transparent, transparent 45%, #008000, transparent 55%, transparent 100%);
+        background: linear-gradient(135deg, transparent, transparent 45%, #008000, transparent 55%, transparent 100%), linear-gradient(45deg, transparent, transparent 45%, #008000, transparent 55%, transparent 100%);
+        background-size: 0.5em 0.5em;
+        background-repeat: repeat-x, repeat-x;
+      }
+    </style>
+  </head>
+  <body>
+    <div>PH7项目标准前端测试页</div>
+    <p><a href="#">用text_decorate 来自定义下划线</a></p>
+    <p><span class="underline0">用border-bottom 来自定义下划线</span></p>
+    <p><a class="underline1" href="#">用border-bottom 来自定义下划线</a></p>
+    <p><a class="underline2"> 用display:inline-block 和 line-height 调整下划线间距</a></p>
+    <p><a class="underline3"> 用box-shadow 模拟下划线</a></p>
+    <div>An <span class="error">error</span>, a <span class="warning">warning</span> and an <span class="info">info</span> baked by techbrood.</div>
+    <script type="text/javascript">
+    </script>
+  </body>
+</html>
